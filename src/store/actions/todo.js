@@ -98,7 +98,6 @@ export const fetchTodos = (userId)=>{
                     id:key
                 })
             }
-            console.log(fetchTodos)
             dispatch(fetchTodosSuccess(fetchTodos))
         })
         .catch(error => {

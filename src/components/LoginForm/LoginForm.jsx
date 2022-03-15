@@ -33,7 +33,6 @@ const LoginForm = ()=> {
          }
     
         dispatch(actions.authenticate(email,password,false));
-         console.log(email,password)
          setEmail('');
          setPassword('');         
          navigate('/todos');
