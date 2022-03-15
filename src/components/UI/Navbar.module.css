@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #8A8EB7;
+    width: 100%;
+    color: #F9F1F4;
+    z-index: 1000;
+    letter-spacing: 2px;
+    
+}

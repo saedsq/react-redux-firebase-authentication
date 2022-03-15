@@ -1,0 +1,58 @@
+.addToDoModal{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    background-color: #8A8EB7;
+    padding: 30px 30px;
+    height:200px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h4{
+    text-align: center;
+    color: white;
+    word-spacing: 2px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+    text-align: center;
+}
+.addToDoInput{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border: none;
+    width: 350px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 40px;
+    
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addToDo,.cancelToDo{
+    display: block;
+    margin-bottom: 20px;
+    padding: 6px 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: grey;
+    width: 100px;
+
+}
