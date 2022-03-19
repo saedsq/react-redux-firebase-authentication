@@ -24,9 +24,11 @@ npm run start
 ```
 
 **To use the Firebase service you need to get an API key and create .env file and then add the API key to the file like:**
+
 REACT_APP_API_KEY=yourapikey
 
 **To access the API key in your auth file that contains action creators related to authentication:**
+
 const API_KEY=process.env.REACT_APP_API_KEY;
 
 
